@@ -9,4 +9,4 @@ def text_indentation(text):
 
     new_str = "".join([x if x not in ".?:" else x + "\n\n" for x in text])
     print("\n".join([x.strip() for x in new_str.split("\n")]), end="")
-    
+  
