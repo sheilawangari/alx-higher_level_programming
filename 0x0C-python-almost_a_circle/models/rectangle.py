@@ -93,5 +93,6 @@ class Rectangle(Base):
         """Returns a string rep of a rectangle object"""
         return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - " + 
                 f"{self.width}/{self.height}")
+                
 
 
