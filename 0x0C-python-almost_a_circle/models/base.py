@@ -10,7 +10,6 @@ class Base:
         """Initializes a Base object"""
         if id != None:
             self.id = id
-
         else:
             Base.__nb_objects += 1
-            self.id = Base.__nb_objects   # Assigning the new value of nb objects
+            self.id = Base.__nb_objects   # Assigning the new value of nb object 
