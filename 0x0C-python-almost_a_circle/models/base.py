@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Base """
 
+
 class Base:
     """Base of all other classes"""
     __nb_objects = 0
