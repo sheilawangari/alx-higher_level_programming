@@ -64,7 +64,7 @@ class Rectangle(Base):
     @property
     def y(self):
         """Getter for the y attribute"""
-        return self.y
+        return self.__y
 
     @y.setter
     def y(self, value):
@@ -93,6 +93,6 @@ class Rectangle(Base):
         """Returns a string rep of a rectangle object"""
         return (f"[Rectangle] ({self.id}) {self.x}/{self.y} - " + 
                 f"{self.width}/{self.height}")
-                
+
 
 
