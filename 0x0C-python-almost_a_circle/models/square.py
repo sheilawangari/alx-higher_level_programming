@@ -133,3 +133,4 @@ class Square(Rectangle):
         my_dict['x'] = self.__x
         my_dict['y'] = self.__y
         return my_dict
+        
